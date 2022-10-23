@@ -1,0 +1,273 @@
+.container-fluid {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("photo/politics\ bg.jpg");
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.grd {
+  width: 100px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.363);
+  backdrop-filter: blur(3px);
+  position: relative;
+}
+
+#form1 {
+  background-color: rgb(255, 255, 255);
+  width: 340px;
+  height: 590px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9px;
+}
+
+.wel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9px;
+  position: absolute;
+}
+
+#form2 {
+  background-color: rgb(255, 255, 255);
+  width: 340px;
+  height: 590px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9px;
+  z-index: 1;
+}
+
+.h3 {
+  align-self: flex-start;
+}
+
+input {
+  background-color: transparent;
+  border: 1px solid transparent;
+  outline: none;
+}
+
+.username-div {
+  margin: 10px 0;
+  width: 90%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.userpic {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  align-items: center;
+  background-image: url("picturess/user.png");
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#username {
+  font-size: 20px;
+}
+
+#username2 {
+  font-size: 20px;
+}
+
+.usermessage {
+  color: red;
+}
+
+.usermessage2 {
+  color: red;
+}
+
+.email-div {
+  margin: 10px 0;
+  width: 90%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.emailpic {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  background-image: url("picturess/email.png");
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#email {
+  font-size: 20px;
+}
+
+.emailmessage {
+  color: red;
+}
+
+.tele-div {
+  margin: 10px 0;
+  width: 90%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.telepic {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  background-image: url("picturess/img_212913.png");
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#tele {
+  font-size: 20px;
+}
+
+.telemessage {
+  color: red;
+}
+
+.password-div1 {
+  margin: 10px 0;
+  width: 90%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.passwordpic1 {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  background-image: url("picturess/password-28.png");
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#password1 {
+  font-size: 20px;
+}
+
+.passwordmessage1 {
+  color: red;
+}
+
+.password-div2 {
+  margin: 10px 0;
+  width: 90%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.passwordpic2 {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  background-image: url("picturess/password-28.png");
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#password2 {
+  font-size: 20px;
+}
+
+#password3 {
+  font-size: 20px;
+}
+
+.passwordmessage2 {
+  color: red;
+}
+
+.passwordmessage3 {
+  color: red;
+}
+
+.check-box {
+  width: 90%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+
+.check {
+  border: 1px solid black;
+}
+
+#send {
+  width: 90%;
+  height: 40px;
+  border: 1px solid transparent;
+  background-color: rgb(47, 0, 255);
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+  color: white;
+  cursor: pointer;
+}
+
+#send:active {
+  background-color: rgba(0, 0, 0, 0.788);
+}
+
+.log {
+  color: blue;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.sign {
+  color: blue;
+  font-weight: 400;
+  cursor: pointer;
+}

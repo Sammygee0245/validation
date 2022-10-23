@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validation page</title>
+    <link rel="stylesheet" href="validate.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md grd">
+          <div class="wel">
+            <form
+              id="form1"
+              action="https://formspree.io/f/xbjbavqv"
+              method="POST"
+            >
+              <p class="h3 mb-4 mx-4">Registration</p>
+              <div class="username-div">
+                <div class="userpic"></div>
+                <input
+                  name="username"
+                  type="text"
+                  id="username"
+                  placeholder="create username"
+                  required
+                />
+              </div>
+              <p class="usermessage"></p>
+
+              <div class="email-div">
+                <div class="emailpic"></div>
+                <input
+                  name="email"
+                  type="email"
+                  id="email"
+                  required
+                  placeholder="Email"
+                />
+              </div>
+              <p class="emailmessage"></p>
+
+              <div class="tele-div">
+                <div class="telepic"></div>
+                <input name="tele" type="text" id="tele" placeholder="Phone" />
+              </div>
+              <p class="telemessage"></p>
+
+              <div class="password-div1">
+                <div class="passwordpic1"></div>
+                <input
+                  name="password1"
+                  type="password"
+                  id="password1"
+                  placeholder="Password"
+                />
+              </div>
+              <p class="passwordmessage1"></p>
+
+              <div class="password-div2">
+                <div class="passwordpic2"></div>
+                <input
+                  name="password2"
+                  type="password"
+                  id="password2"
+                  placeholder="Confirm password"
+                />
+              </div>
+              <p class="passwordmessage2"></p>
+              <div class="check-box">
+                <input
+                  name="chekk"
+                  class="check"
+                  type="checkbox"
+                  required
+                /><label>I accept all terms and condition</label>
+              </div>
+
+              <button id="send">Sign up</button>
+              <p>Already have an account? <span class="log">Login</span></p>
+            </form>
+          </div>
+
+          <form
+            id="form2"
+            action="https://formspree.io/f/xbjbavqv"
+            method="POST"
+          >
+            <p class="h1 mb-5">Log in</p>
+            <div class="username-div">
+              <div class="userpic"></div>
+              <input
+                name="username2"
+                type="text"
+                id="username2"
+                placeholder="Username"
+                required
+              />
+            </div>
+            <p class="usermessage2"></p>
+
+            <div class="password-div1">
+              <div class="passwordpic1"></div>
+              <input
+                name="password3"
+                type="password"
+                id="password3"
+                placeholder="Password"
+                required
+              />
+            </div>
+            <p class="passwordmessage3"></p>
+
+            <button id="send">Log in</button>
+            <p>Dont have an account? <span class="sign">Register</span></p>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="validate.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>
