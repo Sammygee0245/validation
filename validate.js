@@ -33,7 +33,7 @@ form1.addEventListener("submit", (e) => {
     passwordmessage2.innerHTML = "password don't match";
     e.preventDefault();
   } else {
-    alert("congrats🎉you've signed up✅ successfully");
+    alert("Confirm you are not a rebot to continue🤖");
   }
   if (user_name.value != "" && user_name.value.length < 9) {
     usermessage.innerHTML = "";
@@ -64,7 +64,7 @@ let passwordm3 = document.querySelector(".passwordmessage3");
 form2.addEventListener("submit", (event) => {
   let data = JSON.parse(localStorage.getItem("user"));
   if (user_name2.value === data.username && password3.value === data.password) {
-    alert("login successfully");
+    alert("Confirm you are not a rebot to continue🤖");
   } else if (user_name2.value != data.username) {
     usermessage2.innerHTML = "incorrect username";
     event.preventDefault();
