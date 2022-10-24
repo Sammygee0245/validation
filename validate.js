@@ -64,7 +64,7 @@ let passwordm3 = document.querySelector(".passwordmessage3");
 form2.addEventListener("submit", (event) => {
   let data = JSON.parse(localStorage.getItem("user"));
   if (user_name2.value === data.username && password3.value === data.password) {
-    alert("Confirm you are not a rebot to continue🤖");
+    alert("login successfullly");
   } else if (user_name2.value != data.username) {
     usermessage2.innerHTML = "incorrect username";
     event.preventDefault();
@@ -87,9 +87,11 @@ let llog = document.querySelector(".log");
 let sign = document.querySelector(".sign");
 llog.addEventListener("click", () => {
   form1.style.display = "none";
+  form2.style.display = "flex";
 });
 
 sign.addEventListener("click", () => {
   form1.style.display = "flex";
   form1.style.zIndex = "2";
+  form2.style.display = "none";
 });

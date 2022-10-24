@@ -14,13 +14,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(255, 255, 255, 0.363);
-  backdrop-filter: blur(3px);
+  background-color: rgba(255, 255, 255, 0.596);
+  backdrop-filter: blur(5px);
   position: relative;
 }
 
 #form1 {
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0);
   width: 340px;
   height: 590px;
   display: flex;
@@ -28,6 +28,8 @@
   align-items: center;
   justify-content: center;
   border-radius: 9px;
+  backdrop-filter: blur(10px);
+  display: none;
 }
 
 .wel {
@@ -39,13 +41,14 @@
 }
 
 #form2 {
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0);
   width: 340px;
   height: 590px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  backdrop-filter: blur(10px);
   border-radius: 9px;
   z-index: 1;
 }
@@ -113,7 +116,7 @@ input {
 .emailpic {
   width: 20px;
   height: 20px;
-  background-color: rgb(255, 255, 255);
+
   align-items: center;
   background-image: url("picturess/email.png");
   background-attachment: scroll;
@@ -144,7 +147,7 @@ input {
 .telepic {
   width: 20px;
   height: 20px;
-  background-color: rgb(255, 255, 255);
+
   align-items: center;
   background-image: url("picturess/img_212913.png");
   background-attachment: scroll;
@@ -175,7 +178,7 @@ input {
 .passwordpic1 {
   width: 20px;
   height: 20px;
-  background-color: rgb(255, 255, 255);
+
   align-items: center;
   background-image: url("picturess/password-28.png");
   background-attachment: scroll;
@@ -206,7 +209,7 @@ input {
 .passwordpic2 {
   width: 20px;
   height: 20px;
-  background-color: rgb(255, 255, 255);
+
   align-items: center;
   background-image: url("picturess/password-28.png");
   background-attachment: scroll;
@@ -257,7 +260,7 @@ input {
 }
 
 #send:active {
-  background-color: rgba(0, 0, 0, 0.788);
+  background-color: rgba(4, 0, 255, 0.788);
 }
 
 .log {
